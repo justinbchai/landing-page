@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 200px;
+  padding: 75px 0;
 }
 
 .hero .wrapper {
@@ -50,7 +50,6 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 150px;
 }
 
 header h1{
@@ -72,8 +71,42 @@ header ul li a{
   text-decoration: none;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+}
+
 .info h1 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+}
+
+.flex-horizontal{
+  display: flex;
+  gap: 75px;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-wrapper img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.info-wrapper p {
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  color: #1f2937;
 }
