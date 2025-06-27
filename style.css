@@ -110,3 +110,67 @@ header ul li a{
   font-size: 18px;
   color: #1f2937;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote h2 {
+  text-align: right;
+}
+
+.call-to-action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px 150px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.call-to-action-left {
+  color: white;
+}
+
+.call-to-action button {
+  border-style: solid;
+  padding: 5px 20px;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 40px;
+}
